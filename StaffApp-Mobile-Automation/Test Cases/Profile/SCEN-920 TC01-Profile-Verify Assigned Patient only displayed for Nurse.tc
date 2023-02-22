@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: TC01-[Profile]-Verify &quot;Assigned Patient&quot; only displayed for Nurse
+Description: </description>
+   <name>SCEN-920 TC01-Profile-Verify Assigned Patient only displayed for Nurse</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10032&quot;:[],&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i005bj:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://preventia.atlassian.net/&quot;,&quot;self&quot;:&quot;https://preventia.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://preventia.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;SCEN&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;Scenarios&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;TC01-[Profile]-Verify \&quot;Assigned Patient\&quot; only displayed for Nurse&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;marwa.kotb@preventiatechnologies.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Marwa Kotb&quot;,&quot;self&quot;:&quot;https://preventia.atlassian.net/rest/api/2/user?accountId\u003d6372642efde064eda2ebd84f&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://preventia.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://preventia.atlassian.net/rest/api/2/issue/SCEN-920/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://preventia.atlassian.net/rest/api/2/issue/10927&quot;,&quot;key&quot;:&quot;SCEN-920&quot;,&quot;id&quot;:10927}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>a35de41f-3599-4460-a159-067f45ea9a0f</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>2cfca72e-4f5f-46be-b5bc-1f88b93f6721</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TestData-Profile</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>2cfca72e-4f5f-46be-b5bc-1f88b93f6721</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Type</value>
+      <variableId>caa5dc33-994b-4852-9c4d-479d7423fb6a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>2cfca72e-4f5f-46be-b5bc-1f88b93f6721</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Account</value>
+      <variableId>ced3fb35-3cc4-4f67-8ea7-9448cd5e4bd1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>2cfca72e-4f5f-46be-b5bc-1f88b93f6721</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>84539078-f620-4c64-8588-5386dcf00846</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>caa5dc33-994b-4852-9c4d-479d7423fb6a</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ced3fb35-3cc4-4f67-8ea7-9448cd5e4bd1</id>
+      <masked>false</masked>
+      <name>Account</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>84539078-f620-4c64-8588-5386dcf00846</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

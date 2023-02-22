@@ -1,0 +1,53 @@
+{
+  "keywordFileContentHash": "8D21D04C26077D9B55AAC7A60842C1F0",
+  "keywordClasses": [
+    {
+      "name": "packagestaff.StaffApp",
+      "keywordMethods": [
+        {
+          "name": "openStaffApp",
+          "parameters": [],
+          "javadoc": "/**\n\t * Open StaffApp using APK stored in project\n\t */"
+        },
+        {
+          "name": "loginStaffApp",
+          "parameters": [
+            {
+              "name": "userName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Login to staffApp\n\t * @Param UserName staff app user email\n\t * @Param Password staff app user password\n\t */"
+        },
+        {
+          "name": "logOutStaff",
+          "parameters": [],
+          "javadoc": "/**\n\t * Logout to staffApp\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

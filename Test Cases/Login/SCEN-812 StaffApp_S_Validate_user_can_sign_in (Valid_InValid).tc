@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: StaffApp_S_Validate_user_can_sign_in
+Description: *Design:*
+[https://www.figma.com/file/U6SFCnQ9Dru8L93UPpOs9j/Staff-App?node-id=1%3A86|https://www.figma.com/file/U6SFCnQ9Dru8L93UPpOs9j/Staff-App?node-id=1%3A86|smart-link] </description>
+   <name>SCEN-812 StaffApp_S_Validate_user_can_sign_in (Valid_InValid)</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10032&quot;:[],&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i004o7:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://preventia.atlassian.net/&quot;,&quot;self&quot;:&quot;https://preventia.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://preventia.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;SCEN&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;Scenarios&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;StaffApp_S_Validate_user_can_sign_in&quot;,&quot;description&quot;:&quot;*Design:*\n[https://www.figma.com/file/U6SFCnQ9Dru8L93UPpOs9j/Staff-App?node-id\u003d1%3A86|https://www.figma.com/file/U6SFCnQ9Dru8L93UPpOs9j/Staff-App?node-id\u003d1%3A86|smart-link] &quot;,&quot;reporter&quot;:{&quot;active&quot;:true,&quot;displayName&quot;:&quot;Muhammad Rashed&quot;,&quot;self&quot;:&quot;https://preventia.atlassian.net/rest/api/2/user?accountId\u003d61cd74850586a2006909432e&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://preventia.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://preventia.atlassian.net/rest/api/2/issue/SCEN-812/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://preventia.atlassian.net/rest/api/2/issue/10819&quot;,&quot;key&quot;:&quot;SCEN-812&quot;,&quot;id&quot;:10819}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>41750afd-d749-45da-aab8-4fc2873f1947</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>3723eabb-cc6b-4ea5-abc5-b7b2b36bd248</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TestData-Login</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>3723eabb-cc6b-4ea5-abc5-b7b2b36bd248</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Account</value>
+      <variableId>228aaba1-6ad7-4caa-bf99-d5018112a8aa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>3723eabb-cc6b-4ea5-abc5-b7b2b36bd248</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>7949938c-2e43-45cb-92f0-d82aa9de6b70</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>3723eabb-cc6b-4ea5-abc5-b7b2b36bd248</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Message</value>
+      <variableId>c79e4f2b-ca1e-48ee-9bfd-8ead717fce09</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>3723eabb-cc6b-4ea5-abc5-b7b2b36bd248</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Type</value>
+      <variableId>e5442840-43a6-4cec-a57d-0f48fb2198af</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>email of logged in nurse</description>
+      <id>228aaba1-6ad7-4caa-bf99-d5018112a8aa</id>
+      <masked>false</masked>
+      <name>nurseEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>password of nurse account</description>
+      <id>7949938c-2e43-45cb-92f0-d82aa9de6b70</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>welcome message after login</description>
+      <id>c79e4f2b-ca1e-48ee-9bfd-8ead717fce09</id>
+      <masked>false</masked>
+      <name>message</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>type of user (Nurse , Paraclinical , Invalid)</description>
+      <id>e5442840-43a6-4cec-a57d-0f48fb2198af</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+</TestCaseEntity>

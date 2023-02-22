@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: TC01-[Profile]-Verify &quot;Assigned Patient&quot; only displayed for Nurse
+Description: </description>
+   <name>SCEN-921 TC02-Profile-Verify after clicking on change language, app language will be changed to French</name>
+   <tag>jira-integration</tag>
+   <comment></comment>
+   <testCaseGuid>c94896b3-cb4c-4bac-949d-fe0d06e88046</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>2cfca72e-4f5f-46be-b5bc-1f88b93f6721</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TestData-Profile</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>2cfca72e-4f5f-46be-b5bc-1f88b93f6721</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Type</value>
+      <variableId>303537c3-7274-4120-85e3-62b52d62a568</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>2cfca72e-4f5f-46be-b5bc-1f88b93f6721</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Account</value>
+      <variableId>b3cd5937-376e-42bd-a49f-fa7d933c4024</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>2cfca72e-4f5f-46be-b5bc-1f88b93f6721</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>f1629313-1157-4c5b-a948-b107d6527be0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>303537c3-7274-4120-85e3-62b52d62a568</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b3cd5937-376e-42bd-a49f-fa7d933c4024</id>
+      <masked>false</masked>
+      <name>Account</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f1629313-1157-4c5b-a948-b107d6527be0</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
