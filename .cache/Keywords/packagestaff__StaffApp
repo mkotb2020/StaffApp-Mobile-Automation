@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "8D21D04C26077D9B55AAC7A60842C1F0",
+  "keywordFileContentHash": "114E7E31079B86CA2DEE88CD3699D0BC",
   "keywordClasses": [
     {
       "name": "packagestaff.StaffApp",
@@ -7,7 +7,7 @@
         {
           "name": "openStaffApp",
           "parameters": [],
-          "javadoc": "/**\n\t * Open StaffApp using APK stored in project\n\t */"
+          "javadoc": "/**\r\n\t * Open StaffApp using APK stored in project\r\n\t */"
         },
         {
           "name": "loginStaffApp",
@@ -39,12 +39,12 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Login to staffApp\n\t * @Param UserName staff app user email\n\t * @Param Password staff app user password\n\t */"
+          "javadoc": "/**\r\n\t * Login to staffApp\r\n\t * @Param UserName staff app user email\r\n\t * @Param Password staff app user password\r\n\t */"
         },
         {
           "name": "logOutStaff",
           "parameters": [],
-          "javadoc": "/**\n\t * Logout to staffApp\n\t */"
+          "javadoc": "/**\r\n\t * Logout to staffApp\r\n\t */"
         }
       ]
     }

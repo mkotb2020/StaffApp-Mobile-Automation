@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: TC01-[Profile]-Verify &quot;Assigned Patient&quot; only displayed for Nurse
+Description: </description>
+   <name>VisualTestingCheck</name>
+   <tag>jira-integration</tag>
+   <comment></comment>
+   <testCaseGuid>e7134097-c4bf-4eaa-ac27-df29d851bcb0</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>2cfca72e-4f5f-46be-b5bc-1f88b93f6721</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TestData-Profile</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>2cfca72e-4f5f-46be-b5bc-1f88b93f6721</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Type</value>
+      <variableId>3a630352-7cc5-4320-b17c-27917abf212c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>2cfca72e-4f5f-46be-b5bc-1f88b93f6721</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Account</value>
+      <variableId>ecd66ddc-9274-43e8-8d2e-49eee70611a4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>2cfca72e-4f5f-46be-b5bc-1f88b93f6721</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>dc845416-9a83-40ec-be3e-26fbd0dd7f53</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3a630352-7cc5-4320-b17c-27917abf212c</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ecd66ddc-9274-43e8-8d2e-49eee70611a4</id>
+      <masked>false</masked>
+      <name>Account</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dc845416-9a83-40ec-be3e-26fbd0dd7f53</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
